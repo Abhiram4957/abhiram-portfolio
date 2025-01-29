@@ -110,78 +110,85 @@
         font-size: 0.8rem;
     }
 }
-
-/* Responsive Design for Mobile Screens */
-@media (max-width: 800px) {
-    #Sk {
-        font-size: 32px;
-    }
-
+  
+  @media (max-width: 768px) {
     .skills {
-        flex-direction: row;
-        height: 120vh;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
     }
-
-    .shead {
-        font-size: 30px;
-    }
-
-    .sdes {
-        font-size: 0.95rem;
-    }
-
-    .skills-list {
-        margin: 20px 0;
-        justify-content: space-around;
-    }
-
-    .skill-card {
-        width: 60px;
-        height: 60px;
-    }
-
-    .tooltip {
-        font-size: 0.75rem;
-    }
-}
-
-/* Responsive Design for Extra Small Screens */
-@media (max-width: 480px) {
-    #Sk {
-        font-size: 28px;
-    }
-
-    .skills {
-        flex-direction: row;
-        height: 120vh;
-    }
-
+  
     .stext {
-        width: 100%;
-        padding: 10px;
+      width: 90%;
+      margin-bottom: 30px;
     }
-
+  
     .shead {
-        font-size: 28px;
+      font-size: 36px;
     }
-
+  
     .sdes {
-        font-size: 0.9rem;
+      font-size: 1rem;
+      margin-left: 0;
     }
-
+  
     .skills-list {
-        margin: 10px 0;
-        flex-direction: column;
-        align-items: center;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 0;
     }
-
+  
     .skill-card {
-        width: 50px;
-        height: 50px;
-        margin: 6px;
+      width: 100px;
+      height: 100px;
     }
-
+  
+    .card-icon {
+      width: 70%;
+    }
+  }
+  
+  /* Media Query for Mobile Devices */
+  @media (max-width: 480px) {
+    .skills {
+      flex-direction: column;
+      align-items: center;
+      padding: 15px;
+    }
+  
+    .stext {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  
+    .shead {
+      font-size: 28px;
+    }
+  
+    .sdes {
+      font-size: 0.9rem;
+      padding: 0 10px;
+    }
+  
+    .skills-list {
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 0;
+    }
+  
+    .skill-card {
+      width: 80px;
+      height: 80px;
+    }
+  
+    .card-icon {
+      width: 60%;
+    }
+  
     .tooltip {
-        font-size: 0.7rem;
+      font-size: 0.7rem;
+      bottom: -5px;
     }
-}
+  }
+  

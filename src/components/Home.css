@@ -100,8 +100,8 @@
     }
 
     #myPic {
-        width: 200px;
-        height: 200px;
+        width: 350px;
+        height: 350px;
     }
 
     .ctaButton {
@@ -133,9 +133,9 @@
 
 @media (max-width: 480px) {
     .home {
-        display: flex;
-        flex-wrap: wrap;
-        width: 90%;
+        padding: 40px 10%;
+        flex-direction: row;
+        height: 120vh;
     }
 
     .homeText {
@@ -144,8 +144,8 @@
     }
 
     #myPic {
-        width: 150px;
-        height: 150px;
+        width: 350px;
+        height: 350px;
     }
 
     .description {

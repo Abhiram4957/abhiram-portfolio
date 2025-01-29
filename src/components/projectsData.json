@@ -1,0 +1,52 @@
+[
+    {
+      "id": 1,
+      "title": "Papas willow-Internship",
+      "description": "E-commerce cricket store website with features product listing, cart management, user authentication",
+      "techStack": ["REACT", "Redux", "Javascript", "Express"],
+      "liveDemo": "https://papaswillow.amigosmartech.com/",
+      "image": "./images/papa.jpeg"
+    },
+    {
+      "id": 2,
+      "title": "BeatBox",
+      "description": "A web-based application for managing book inventory, users, and loans.",
+      "techStack": ["HTML", "CSS", "Javascript","Bootstrap"],
+      "github": "https://github.com/Abhiram4957/BeatBox",
+      "liveDemo": "452", 
+      "image": "./images/bb.jpeg"
+    },
+    {
+      "id": 3,
+      "title": "HealBridge",
+      "description": "User-friendly mental health care website offering therapy, meditation resources, and personalized chat support.",
+      "techStack": ["HTML", "CSS", "Javascript","Bootstrap"],
+      "github": "https://github.com/Abhiram4957/HealBridge",
+      "liveDemo": "https://healbridge.netlify.app/",
+      "image": "./images/heal.jpeg"
+    },
+    {
+      "id": 4,
+      "title": "Cancer Cell Classification",
+      "description": "Classifying cells into malignant or benign using Scikit-learn, breast cancer dataset",
+      "techStack": ["Python", "Machine Learning", "Classification","Scikit-learn"],
+      "github": "https://github.com/yourusername/library-management-system",
+      "image": "./images/cancer.jpeg"
+    },
+    {
+      "id": 5,
+      "title": "Handwritten Digit Recognition",
+      "description": "Build a neural network to recognize handwritten digits from 0 to 9 using the MNIST dataset",
+      "techStack": ["Python", "Machine Learning", "Classification","MINIST Dataset"],
+      "github": "https://github.com/yourusername/library-management-system",
+      "image": "./images/hand.jpeg"
+    },
+    {
+      "id": 6,
+      "title": "Property Price Prediction",
+      "description": "Develop a predictive model to estimate real estate property values based on various features of the properties and their locations.",
+      "techStack": ["Python", "Machine Learning","Regression"],
+      "github": "https://github.com/yourusername/library-management-system",
+      "image": "./images/property.jpeg"
+    }
+  ]

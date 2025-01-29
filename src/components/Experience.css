@@ -1,0 +1,83 @@
+.experience-container {
+    text-align: center;
+    padding: 3rem 2rem;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #DC143C;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 5% 5%;
+}
+
+.card {
+    width: 40%;
+    min-width: 300px;
+    padding: 2rem;
+    border-radius: 15px;
+    background: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease-in-out;
+    border-left: 5px solid #DC143C;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.25);
+}
+
+.company {
+    text-decoration: none;
+    color: #DC143C;
+    font-size: 1.4rem;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.5rem;
+    transition: color 0.3s ease-in-out;
+}
+
+.company:hover {
+    color: #c1122e;
+}
+
+.role {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.duration {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+.desc {
+    font-size: 1rem;
+    color: #777;
+    line-height: 1.5;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 80%;
+    }
+}

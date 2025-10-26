@@ -31,7 +31,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="home">
+    <div className="home" id="home">
       <div className="homeText">
         <p className="container" ref={containerRef}></p>
         <p className="description">

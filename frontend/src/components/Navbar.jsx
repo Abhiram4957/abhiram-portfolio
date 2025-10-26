@@ -14,11 +14,11 @@ const Header = () => {
         <h1>Abhiram</h1>
       </section>
       <div className={`nav ${isMobile ? "active" : ""}`}>
-        <a href="#Home" className="nav-item">Home</a>
-        <a href="#About" className="nav-item">About</a>
-        <a href="#Skills" className="nav-item">Skills</a>
-        <a href="#Projects" className="nav-item">Projects</a>
-        <a href="#Contact" className="nav-item">Contact</a>
+        <a href="#home" className="nav-item">Home</a>
+        <a href="#about" className="nav-item">About</a>
+        <a href="#Sk" className="nav-item">Skills</a>
+        <a href="#projects" className="nav-item">Projects</a>
+        <a href="#Con" className="nav-item">Contact</a>
       </div>
       <div className="menu-icon" onClick={toggleMenu}>
         {isMobile ? <span>&#10005;</span> : <span>&#9776;</span>}

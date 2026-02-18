@@ -3,7 +3,6 @@ import axios from "axios";
 import './Contact.css'
 
 function Contact() {
-  // ✅ State for form data
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -11,20 +10,17 @@ function Contact() {
     message: ""
   });
 
-  // ✅ State for status message
   const [status, setStatus] = useState("");
 
-  // ✅ Handle input changes
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  // ✅ Handle form submission
   const handleSubmit = async () => {
     try {
       await axios.post("http://localhost:3003/add", formData);
       setStatus("Message sent successfully!");
-      setFormData({ name: "", email: "", subject: "", message: "" }); // clear form
+      setFormData({ name: "", email: "", subject: "", message: "" });
     } catch (err) {
       console.error(err);
       setStatus("Failed to send message.");

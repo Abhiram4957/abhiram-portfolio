@@ -29,10 +29,6 @@ const Skills = () => {
                     <img class="card-icon" src="images/javascript.png" alt="logo"/>
               </li>
               <li class="skill-card">
-                  <p class="tooltip">Typescript</p>
-                    <img class="card-icon" src="images/ts.jpg" alt="logo"/>
-              </li>
-              <li class="skill-card">
                   <p class="tooltip">HTML</p>
                     <img class="card-icon" src="images/html5.png" alt="logo"/>
               </li>
@@ -41,26 +37,31 @@ const Skills = () => {
                     <img class="card-icon" src="images/css3.png" alt="logo"/>
               </li>
               <li class="skill-card">
-                  <p class="tooltip">REACT</p>
-                    <img class="card-icon" src="images/react.png" alt="logo"/>
-              </li>
-              <li class="skill-card">
                   <p class="tooltip">Github</p>
                     <img class="card-icon" src="images/github.jpg" alt="logo"/>
               </li>
               <li class="skill-card">
+                  <p class="tooltip">MongoDB</p>
+                    <img class="card-icon" src="images/m.png" alt="logo"/>
+              </li>
+              
+              <li class="skill-card">
+                  <p class="tooltip">Express.js</p>
+                    <img class="card-icon" src="images/e.png" alt="logo"/>
+              </li>
+              <li class="skill-card">
+                  <p class="tooltip">REACT</p>
+                    <img class="card-icon" src="images/react.png" alt="logo"/>
+              </li>
+              <li class="skill-card">
+                  <p class="tooltip">Node.js</p>
+                    <img class="card-icon" src="images/n.png" alt="logo"/>
+              </li>
+              
+              <li class="skill-card">
                   <p class="tooltip">Machine learning</p>
                     <img class="card-icon" src="images/ML.jpg" alt="logo"/>
               </li>
-              <li class="skill-card">
-                  <p class="tooltip">Prolog</p>
-                    <img class="card-icon" src="images/prolog.png" alt="logo"/>
-              </li>
-              <li class="skill-card">
-                  <p class="tooltip">My SQL</p>
-                    <img class="card-icon" src="images/SQL.jpg" alt="logo"/>
-              </li>
-              
             </ul>
     </div>
   </div></>

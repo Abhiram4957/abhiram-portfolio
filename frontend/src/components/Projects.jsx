@@ -1,4 +1,4 @@
-/*import React from "react";
+import React from "react";
 import "./Projects.css";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import projectsData from "./projectsData.json";
@@ -40,36 +40,6 @@ const Projects = () => {
     </section>
   );
 };
-
-export default Projects;
-*/
-import React, { useEffect, useState } from "react";
-
-function Projects() {
-  const [projects, setProjects] = useState([]);
-
-  useEffect(() => {
-    fetch("http://localhost:5000/api/projects")
-      .then((res) => res.json())
-      .then((data) => setProjects(data))
-      .catch((err) => console.error(err));
-  }, []);
-
-  return (
-    <div className="projects-container">
-      {projects.map((proj) => (
-        <div key={proj._id} className="project-card">
-          <img src={proj.imageUrl} alt={proj.title} />
-          <h3>{proj.title}</h3>
-          <p>{proj.description}</p>
-          <p>Tech: {proj.techStack.join(", ")}</p>
-          <a href={proj.liveUrl} target="_blank">Live</a> |{" "}
-          <a href={proj.repoUrl} target="_blank">Code</a>
-        </div>
-      ))}
-    </div>
-  );
-}
 
 export default Projects;
   

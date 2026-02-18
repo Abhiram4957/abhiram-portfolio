@@ -9,12 +9,12 @@
     },
     {
       "id": 2,
-      "title": "BeatBox",
-      "description": "A web-based application for managing book inventory, users, and loans.",
-      "techStack": ["HTML", "CSS", "Javascript","Bootstrap"],
-      "github": "https://github.com/Abhiram4957/BeatBox",
-      "liveDemo": "452", 
-      "image": "./images/bb.jpeg"
+      "title": "Life-os",
+      "description": "A full stack project which makes day to day tasks easy to manage.",
+      "techStack": ["React","Node","Express","Mongodb","tailwind.css","jwt"],
+      "github": "https://github.com/Abhiram4957/life-os",
+      "liveDemo": "https://life-abhi.vercel.app", 
+      "image": "./images/bb.png"
     },
     {
       "id": 3,
@@ -27,19 +27,19 @@
     },
     {
       "id": 4,
+      "title": "Sign Language recognition",
+      "description": "Build a neural network to recognize hand sign language uses MobilenetV4",
+      "techStack": ["Python", "Machine Learning", "CNN","Open CV"],
+      "github": "https://github.com/Abhiram4957/Sign-Language-Generation",
+      "image": "./images/"
+    },
+    {
+      "id": 5,
       "title": "Cancer Cell Classification",
       "description": "Classifying cells into malignant or benign using Scikit-learn, breast cancer dataset",
       "techStack": ["Python", "Machine Learning", "Classification","Scikit-learn"],
       "github": "https://github.com/yourusername/library-management-system",
       "image": "./images/cancer.jpeg"
-    },
-    {
-      "id": 5,
-      "title": "Handwritten Digit Recognition",
-      "description": "Build a neural network to recognize handwritten digits from 0 to 9 using the MNIST dataset",
-      "techStack": ["Python", "Machine Learning", "Classification","MINIST Dataset"],
-      "github": "https://github.com/yourusername/library-management-system",
-      "image": "./images/hand.jpeg"
     },
     {
       "id": 6,

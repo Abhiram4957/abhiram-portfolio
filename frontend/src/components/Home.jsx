@@ -87,7 +87,7 @@ const Home = () => {
         >
           <div className="image-glow"></div>
           <motion.img 
-            src="./images/me.jpeg" 
+            src="./images/2.jpeg" 
             alt="Abhiram" 
             className="profile-pic"
             animate={{ y: [-10, 10, -10] }}

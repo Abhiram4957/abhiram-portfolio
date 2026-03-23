@@ -7,20 +7,24 @@ import Projects from'./components/Projects.jsx';
 import Footer from './components/Footer.jsx';
 import Navbar from './components/Navbar.jsx';
 import Experience from './components/Experience.jsx';
-import "./App.css"
+import "./App.css";
+
 const App = () => {
   return (
     <>
-    <Navbar/>
-    <Home/>
-    <About/>
-    <Skills/>
-    <Experience/>
-    <Projects/>
-    <Contact/>
-    <Footer/>
+      <div className="bg-gradients"></div>
+      <div className="app-container">
+        <Navbar/>
+        <Home/>
+        <About/>
+        <Skills/>
+        <Experience/>
+        <Projects/>
+        <Contact/>
+        <Footer/>
+      </div>
     </>
   )
 }
 
-export default App
+export default App;

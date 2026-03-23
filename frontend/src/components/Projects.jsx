@@ -1,45 +1,83 @@
 import React from "react";
-import "./Projects.css";
+import { motion } from "framer-motion";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import projectsData from "./projectsData.json";
+import "./Projects.css";
+
+const containerVariants = {
+  hidden: { opacity: 0 },
+  visible: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.2
+    }
+  }
+};
+
+const cardVariants = {
+  hidden: { y: 30, opacity: 0 },
+  visible: { y: 0, opacity: 1, transition: { duration: 0.6 } }
+};
 
 const Projects = () => {
   return (
-    <section className="projectsSection" id="projects">
-      <h2 className="ptitle">Projects</h2>
-      <div className="projectsGrid">
+    <section className="projects-section" id="projects">
+      <motion.div 
+        className="section-header"
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, amount: 0.3 }}
+        transition={{ duration: 0.6 }}
+      >
+        <span className="section-subtitle">Portfolio</span>
+        <h2 className="section-title">My Projects</h2>
+        <div className="title-underline"></div>
+      </motion.div>
+
+      <motion.div 
+        className="projects-grid"
+        variants={containerVariants}
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.1 }}
+      >
         {projectsData.map((project, id) => (
-          <div key={id} className="projectCard">
-            <img src={project.image} alt={project.title} className="projectImage" />
-            <div className="projectInfo">
-              <h3 className="projectTitle">{project.title}</h3>
-              <p className="projectDescription">{project.description}</p>
-              <div className="techStack">
+          <motion.div key={id} className="project-card" variants={cardVariants}>
+            <div className="project-image-wrapper">
+              <img src={project.image} alt={project.title} className="project-image" />
+              <div className="project-overlay">
+                <div className="project-links-overlay">
+                  {project.github && (
+                    <a href={project.github} target="_blank" rel="noopener noreferrer" className="action-btn">
+                      <FaGithub />
+                    </a>
+                  )}
+                  {project.liveDemo && (
+                    <a href={project.liveDemo} target="_blank" rel="noopener noreferrer" className="action-btn">
+                      <FaExternalLinkAlt />
+                    </a>
+                  )}
+                </div>
+              </div>
+            </div>
+            
+            <div className="project-info">
+              <h3 className="project-title">{project.title}</h3>
+              <p className="project-description">{project.description}</p>
+              
+              <div className="tech-stack">
                 {project.techStack.map((tech, idx) => (
-                  <span key={idx} className="tech">
+                  <span key={idx} className="tech-pill">
                     {tech}
                   </span>
                 ))}
               </div>
-              <div className="projectLinks">
-                {project.github && (
-                  <a href={project.github} target="_blank" rel="noopener noreferrer">
-                    <FaGithub className="icon" />
-                  </a>
-                )}
-                {project.liveDemo && (
-                  <a href={project.liveDemo} target="_blank" rel="noopener noreferrer">
-                    <FaExternalLinkAlt className="icon" />
-                  </a>
-                )}
-              </div>
             </div>
-          </div>
+          </motion.div>
         ))}
-      </div>
+      </motion.div>
     </section>
   );
 };
 
 export default Projects;
-  

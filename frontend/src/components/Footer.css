@@ -1,15 +1,35 @@
-.footer{
-    height: 8vh;
-    background-color: #DC143C;
-    color: black;
-    font-size: 25px;
-    text-align: center;
-    padding-top: 1%;
-    width: 100%;
+.footer-section {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  padding: 30px 0;
+  border-top: 1px solid var(--glass-border);
+  background: var(--bg-secondary);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
-.footer span{
-    color: black;
-    font-style: italic;
-    font-size: 30px;
-    font-weight: 600;
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.footer-text {
+  color: var(--text-secondary);
+  font-size: 1.05rem;
+}
+
+.highlight-name {
+  color: var(--accent);
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.footer-year {
+  color: rgba(161, 161, 170, 0.5);
+  font-size: 0.85rem;
 }

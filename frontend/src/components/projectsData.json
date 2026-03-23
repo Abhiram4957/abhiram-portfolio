@@ -18,9 +18,9 @@
     },
     {
       "id": 3,
-      "title": "HealBridge",
-      "description": "User-friendly mental health care website offering therapy, meditation resources, and personalized chat support.",
-      "techStack": ["HTML", "CSS", "Javascript","Bootstrap"],
+      "title": "AI Fitness Tracker",
+      "description": "A full-stack fitness tracking application to set daily goals,monitor calorie intake, and track calories burned, with secure authentication.",
+      "techStack": ["Mongodb", "Express", "REACT","Node","tailwind.css","JWT", "GROQ AI"],
       "github": "https://github.com/Abhiram4957/HealBridge",
       "liveDemo": "https://healbridge.netlify.app/",
       "image": "./images/heal.jpeg"

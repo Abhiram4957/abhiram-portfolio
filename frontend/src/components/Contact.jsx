@@ -37,7 +37,7 @@ function Contact() {
 
   return (
     <section id="Con" className="contact-section">
-      <motion.div 
+      <motion.div
         className="section-header"
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -50,7 +50,7 @@ function Contact() {
       </motion.div>
 
       <div className="contact-container">
-        <motion.div 
+        <motion.div
           className="contact-info-wrapper"
           initial={{ opacity: 0, x: -50 }}
           whileInView={{ opacity: 1, x: 0 }}
@@ -71,10 +71,10 @@ function Contact() {
                 <div className="icon-circle"><User size={20} /></div>
                 <div className="info-content">
                   <span className="info-label">Name</span>
-                  <span className="info-value">Abhiram</span>
+                  <span className="info-value">Abhiram Gonuguntla</span>
                 </div>
               </div>
-              
+
               <div className="info-row">
                 <div className="icon-circle"><MapPin size={20} /></div>
                 <div className="info-content">
@@ -82,7 +82,7 @@ function Contact() {
                   <span className="info-value">Hyderabad, Telangana, India</span>
                 </div>
               </div>
-              
+
               <div className="info-row">
                 <div className="icon-circle"><Mail size={20} /></div>
                 <div className="info-content">
@@ -94,7 +94,7 @@ function Contact() {
           </div>
         </motion.div>
 
-        <motion.div 
+        <motion.div
           className="contact-form-wrapper"
           initial={{ opacity: 0, x: 50 }}
           whileInView={{ opacity: 1, x: 0 }}
@@ -103,7 +103,7 @@ function Contact() {
         >
           <div className="contact-glass-panel form-panel">
             <h3 className="panel-title">Message Me</h3>
-            
+
             <form onSubmit={handleSubmit} className="contact-form">
               <div className="input-group">
                 <input
@@ -116,7 +116,7 @@ function Contact() {
                   className="modern-input"
                 />
               </div>
-              
+
               <div className="input-group">
                 <input
                   type="email"
@@ -152,8 +152,8 @@ function Contact() {
                 />
               </div>
 
-              <motion.button 
-                type="submit" 
+              <motion.button
+                type="submit"
                 className="submit-btn"
                 disabled={isSubmitting}
                 whileHover={{ scale: 1.02 }}
@@ -168,9 +168,9 @@ function Contact() {
                   </>
                 )}
               </motion.button>
-              
+
               {status && (
-                <motion.div 
+                <motion.div
                   initial={{ opacity: 0, y: 10 }}
                   animate={{ opacity: 1, y: 0 }}
                   className={`status-message ${status.includes("successfully") ? "success" : "error"}`}

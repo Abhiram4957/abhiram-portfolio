@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import "./Home.css";
 
 const Home = () => {
-  const careers = ["Web Developer", "ML Engineer", "Student"];
+  const careers = ["AI/ML Engineer","Full Stack Developer", "Student"];
   const [currentCareer, setCurrentCareer] = useState("");
   const [careerIndex, setCareerIndex] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
@@ -87,7 +87,7 @@ const Home = () => {
         >
           <div className="image-glow"></div>
           <motion.img 
-            src="./images/2.jpeg" 
+            src="./images/2.png" 
             alt="Abhiram" 
             className="profile-pic"
             animate={{ y: [-10, 10, -10] }}

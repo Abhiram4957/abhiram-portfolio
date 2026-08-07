@@ -5,16 +5,19 @@ import './Skills.css';
 const skillsData = [
   { name: 'Python', img: 'images/python.jpeg' },
   { name: 'Java', img: 'images/java.png' },
-  { name: 'C', img: 'images/C.jpg' },
+  { name: 'MySQL', img: 'images/sql.png' },
   { name: 'Javascript', img: 'images/javascript.png' },
   { name: 'HTML', img: 'images/html5.png' },
-  { name: 'CSS', img: 'images/css3.png' },
+  { name: 'Tailwind.css', img: 'images/css3.png' },
   { name: 'Github', img: 'images/github.jpg' },
   { name: 'MongoDB', img: 'images/m.png' },
   { name: 'Express.js', img: 'images/e.png' },
   { name: 'REACT', img: 'images/react.png' },
   { name: 'Node.js', img: 'images/n.png' },
-  { name: 'Machine learning', img: 'images/ML.jpg' }
+  { name: 'Machine learning', img: 'images/ML.jpg' },
+  { name: 'Agentic Ai', img: 'images/agent.png' },
+  { name: 'Prompt Engineering', img: 'images/prompt.jpg' },
+  { name: 'LLMs', img: 'images/llm.webp' }
 ];
 
 const containerVariants = {

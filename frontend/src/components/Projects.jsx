@@ -44,7 +44,7 @@ const Projects = () => {
         {projectsData.map((project, id) => (
           <motion.div key={id} className="project-card" variants={cardVariants}>
             <div className="project-image-wrapper">
-              <img src={project.image} alt={project.title} className="project-image" />
+              <img src={project.image} className="project-image" />
               <div className="project-overlay">
                 <div className="project-links-overlay">
                   {project.github && (

@@ -23,8 +23,8 @@ mongoose.connect('mongodb://127.0.0.1:27017/contact', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
-.then(() => console.log('✅ MongoDB connected'))
-.catch((err) => console.error('❌ MongoDB error:', err));
+  .then(() => console.log('✅ MongoDB connected'))
+  .catch((err) => console.error('❌ MongoDB error:', err));
 
 app.post('/add', async (req, res) => {
   try {

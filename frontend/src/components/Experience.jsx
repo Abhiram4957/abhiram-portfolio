@@ -8,7 +8,7 @@ const experiences = [
     role: "AI engineer Intern",
     company: "Humera AI",
     url: "https://www.linkedin.com/company/humera-ai/?originalSubdomain=in",
-    duration: "01 March 2026 - Present",
+    duration: "01 March 2026 - 30 April 2026",
     description:
       "Working with lip-sync, voice cloning, and TTS models, focusing on improving speech quality and audiovisual alignment. Applied prompt engineering techniques, development tools to automate workflows and optimize model interaction"
     },

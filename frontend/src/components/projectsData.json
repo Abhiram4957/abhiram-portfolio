@@ -1,6 +1,24 @@
 [
+    
     {
       "id": 1,
+      "title": "AgentHire – Multi-Agent Job Assitant",
+      "description": "Architected an autonomous multi-agent pipeline with LangGraph StateGraph orchestration, sequencing resume parsing, job-description analysis, ATS scoring, resume tailoring, AI critique, and document generation nodes",
+      "techStack": ["Python", "FastAPI", "LangGraph", "React", "Groq API", "LangChain"],
+      "github": "https://github.com/Abhiram4957/AI-job-search-and-resume-builder.git",
+      "image": "./images/agentHire.png"
+    },
+    {
+      "id": 2,
+      "title": "AI Fitness Tracker",
+      "description": "A full-stack fitness tracking application to set daily goals,monitor calorie intake, and track calories burned, with secure authentication.",
+      "techStack": ["Mongodb", "Express", "REACT","Node","tailwind.css","JWT", "GROQ AI"],
+      "github": "https://github.com/Abhiram4957/AI-fitness-tracker.git",
+      "liveDemo": "ai-fitness-tracker-black.vercel.app",
+      "image": "./images/fitness.png"
+    },
+    {
+      "id": 3,
       "title": "Papas willow-Internship",
       "description": "E-commerce cricket store website with features product listing, cart management, user authentication",
       "techStack": ["REACT", "Redux", "Javascript", "Express"],
@@ -8,7 +26,7 @@
       "image": "./images/papa.jpeg"
     },
     {
-      "id": 2,
+      "id": 4,
       "title": "Life-os",
       "description": "A full stack project which makes day to day tasks easy to manage.",
       "techStack": ["React","Node","Express","Mongodb","tailwind.css","jwt"],
@@ -17,29 +35,12 @@
       "image": "./images/bb.png"
     },
     {
-      "id": 3,
-      "title": "AI Fitness Tracker",
-      "description": "A full-stack fitness tracking application to set daily goals,monitor calorie intake, and track calories burned, with secure authentication.",
-      "techStack": ["Mongodb", "Express", "REACT","Node","tailwind.css","JWT", "GROQ AI"],
-      "github": "https://github.com/Abhiram4957/HealBridge",
-      "liveDemo": "https://healbridge.netlify.app/",
-      "image": "./images/heal.jpeg"
-    },
-    {
-      "id": 4,
+      "id": 5,
       "title": "Sign Language recognition",
-      "description": "Build a neural network to recognize hand sign language uses MobilenetV4",
+      "description": "Build a neural network to recognize hand sign language uses MobilenetV4.Deployed as a real-time inference system translating classified gestures into text output to support communication for the hearing-impaired",
       "techStack": ["Python", "Machine Learning", "CNN","Open CV"],
       "github": "https://github.com/Abhiram4957/Sign-Language-Generation",
       "image": "./images/"
-    },
-    {
-      "id": 5,
-      "title": "Cancer Cell Classification",
-      "description": "Classifying cells into malignant or benign using Scikit-learn, breast cancer dataset",
-      "techStack": ["Python", "Machine Learning", "Classification","Scikit-learn"],
-      "github": "https://github.com/yourusername/library-management-system",
-      "image": "./images/cancer.jpeg"
     },
     {
       "id": 6,
